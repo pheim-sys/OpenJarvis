@@ -483,6 +483,11 @@ Same as Apple Notes — requires Full Disk Access.
 
 ### Setup
 
+0. **Install Obsidian** (optional, if you don't have it yet):
+   - Linux/macOS: `./scripts/install-obsidian.sh --vault ~/Vault`
+   - Windows (PowerShell): `.\scripts\install-obsidian.ps1 -Vault "$HOME\Documents\Vault"`
+
+   The `--vault` / `-Vault` option creates the vault and connects it to OpenJarvis (steps 1–2 below).
 1. Find your Obsidian vault folder (the folder containing the `.obsidian` directory)
 2. **Connect in OpenJarvis:**
    - Desktop/Browser: Agents → Channels tab → Obsidian → paste the vault path
